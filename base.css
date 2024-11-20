@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; 
+}
+
+#navbar {
+    background-color: #ff6347;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#inicio h5:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+#clan-uchiha h5:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+#formulario-contacto h5:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+
+.image-container { display: inline-block; 
+    margin: 10px; transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid transparent; 
+} 
+
+.image-container img { display: block; max-width: 100%; 
+    height: auto; transition: transform 0.3s ease; 
+    } 
+.image-container:hover { transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+        border-color: #ff6347;
+     } 
+     
+.image-container:hover img { transform: scale(1.1);  }
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    color: #666;
+}
